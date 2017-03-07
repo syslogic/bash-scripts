@@ -17,7 +17,7 @@ else
     echo "the Android QEMU emulator is already wrapped;"
     # checking if the emulator was already moved
     if [ $(stat -c%s "$ANDROID_EMU_FILE_NAME.bin") -ge $ANDROID_EMU_MIN_SIZE ]; then
-        echo "just updating the CLI paramters being passed."
+        echo "just updating the CLI parameters being passed."
     else
         # terminate execution and indicate an error 
 	exit 1 
