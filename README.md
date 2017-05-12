@@ -1,13 +1,5 @@
 # #!/bin/bash
 
-## .bash_aliases
-    
-some `.bash_aliases` snippets:
-    
-    # Unreal Engine
-    alias u4ed='/home/epicgames/UnrealEngine/Engine/Binaries/Linux/UE4Editor'
-    alias u4front='/home/epicgames/UnrealEngine/Engine/Binaries/Linux/UnrealFrontend'
-
 ## cron_firebase.sh
 a shell-script, which utilizes firebase-tools `npm install -g firebase-tools`,
 
