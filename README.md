@@ -16,3 +16,7 @@ in order to have these database dumps contained in a common backup cronjob:
 It wraps the Android Emulator with CLI options.
 merely written, because I was fed up of doing this manually and
 the GUI of Android Studio does not permit one to add parameters.
+
+## keylayout.sh
+installs package system-config-keyboard on RHEL and CentOs
+... for switching the default keyboard layout to German.
