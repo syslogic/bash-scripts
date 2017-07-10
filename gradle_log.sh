@@ -13,6 +13,6 @@ then
     echo "[GRADLE] build progress has completed successfully."
 else
     # code if not found
-    echo "[BASH] build progress has completed with errors."
+    echo "[GRADLE] build progress has completed with errors."
 fi
 gedit ${LOGFILE}
