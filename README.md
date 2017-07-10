@@ -1,7 +1,7 @@
 # #!/bin/bash
 
 ## cron_firebase.sh
-a shell-script, which utilizes firebase-tools `npm install -g firebase-tools`,
+a shell-script (which utilizes firebase-tools `npm install -g firebase-tools`),
 
 in order to have these database dumps contained in a common backup cronjob:
 
@@ -12,8 +12,11 @@ in order to have these database dumps contained in a common backup cronjob:
     
     cron_firebase.sh project-12345 /home/backups/firebase
 
+## gradle_log.sh
+it logs gradle output to file, greps for "BUILD SUCCESSFUL" and then it opens that file.
+
 ## wrap_android_emulator.sh
-It wraps the Android Emulator with CLI options.
+it wraps the Android Emulator with CLI options.
 merely written, because I was fed up of doing this manually and
 the GUI of Android Studio does not permit one to add parameters.
 
