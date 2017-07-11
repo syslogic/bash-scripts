@@ -1,18 +1,18 @@
 #!/bin/bash
-# it logs gradle output to file, greps for "BUILD SUCCESSFUL" and then it opens that file.
+# it logs the gradle build output to file and opens that file, in case of errors.
 # written 2017-07-10 by Martin Zeitler.
 cd ..
 WD=`pwd`
-LOGFILE=./results/gradle.log
-SUCCESS="BUILD SUCCESSFUL"
-echo "[GRADLE] build progress initiated for ${WD} ..."
+LOGFILE=$WD/results/gradle.log
 mkdir -p results
+
+echo "[GRADLE] build process initiated for ${WD} ..."
 ./gradlew --info build > ${LOGFILE}
-if grep -Fxq ${SUCCESS} ${LOGFILE}
+
+if grep -Fxq "BUILD SUCCESSFUL" ${LOGFILE}
 then
-    echo "[GRADLE] build progress has completed successfully."
+    echo "[GRADLE] build has completed successfully."
 else
-    # code if not found
-    echo "[GRADLE] build progress has completed with errors."
+    echo "[GRADLE] build has completed with errors."
+    gedit $LOGFILE
 fi
-gedit ${LOGFILE}
