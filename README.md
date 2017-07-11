@@ -22,5 +22,5 @@ the GUI of Android Studio does not permit one to add further parameters
 there, in order to configure QEMU & KVM as one wishes.
 
 ## keylayout.sh
-it installs package system-config-keyboard on RHEL and CentOS
+it installs package `system-config-keyboard` on RHEL and CentOS
 e.g... for switching the default keyboard layout to German.
