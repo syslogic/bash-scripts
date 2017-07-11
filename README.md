@@ -1,7 +1,7 @@
 # #!/bin/bash
 
 ## cron_firebase.sh
-a shell-script (which utilizes firebase-tools `npm install -g firebase-tools`),
+it utilizes firebase-tools (`npm install -g firebase-tools`),
 
 in order to have these database dumps contained in a common backup cronjob:
 
@@ -22,5 +22,5 @@ the GUI of Android Studio does not permit one to add parameters
 there, in order to configure QEMU & KVM differently.
 
 ## keylayout.sh
-installs package system-config-keyboard on RHEL and CentOS
+it installs package system-config-keyboard on RHEL and CentOS
 e.g... for switching the default keyboard layout to German.
