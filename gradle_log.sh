@@ -11,8 +11,8 @@ echo "[GRADLE] build process initiated for ${WD} ..."
 
 if grep -Fxq "BUILD SUCCESSFUL" ${LOGFILE}
 then
-    echo "[GRADLE] build has completed successfully."
+    echo "[GRADLE] build process has completed successfully."
 else
-    echo "[GRADLE] build has completed with errors."
+    echo "[GRADLE] build process has completed with errors."
     gedit $LOGFILE
 fi
