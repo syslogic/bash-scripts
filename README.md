@@ -13,7 +13,7 @@ in order to have these database dumps contained in a common backup cronjob:
     cron_firebase.sh project-12345 /home/backups/firebase
 
 ## gradle_log.sh
-it logs gradle output to file, greps for "BUILD SUCCESSFUL" and then it opens that file.
+it logs Gradle (https://gradle.org) build output to file and opens that file, in case of errors.
 
 ## wrap_android_emulator.sh
 it wraps the Android Emulator with CLI options.
