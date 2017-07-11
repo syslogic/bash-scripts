@@ -18,8 +18,9 @@ it logs Gradle (https://gradle.org) build output to file and opens that file, in
 ## wrap_android_emulator.sh
 it wraps the Android Emulator with CLI options.
 merely written, because I was fed up of doing this manually and
-the GUI of Android Studio does not permit one to add parameters.
+the GUI of Android Studio does not permit one to add parameters
+there, in order to configure QEMU & KVM differently.
 
 ## keylayout.sh
-installs package system-config-keyboard on RHEL and CentOs
-... for switching the default keyboard layout to German.
+installs package system-config-keyboard on RHEL and CentOS
+e.g... for switching the default keyboard layout to German.
