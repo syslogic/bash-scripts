@@ -13,7 +13,8 @@ in order to have these database dumps contained within a common backup cronjob:
     ./cron_firebase.sh project-12345 /home/backups/firebase
 
 ## gradle_log.sh
-it logs Gradle (https://gradle.org) build output to file and opens that file, in case of errors. when executing the script from within Android Studio, one probably should replace `gedit` with the path to `studio64` (just used gedit, so that it is rather portable).
+it logs the Gradle (https://gradle.org) build output to file and then opens that file, in case of errors -
+otherwise it opens the LINT results in *default* web-browser.
 
 ## wrap_android_emulator.sh
 it wraps the Android Emulator with CLI options.
