@@ -1,6 +1,6 @@
 #!/bin/bash
 # $1 is a Bluetooth MAC address.
-# example usage: bluetooth_connect.sh 00:00:00:00:00:00
+# example usage: bluetooth_disconnect.sh 00:00:00:00:00:00
 # currently being triggered by /usr/lib/udev/rules.d/60-soundcore.rules
 command -v bluetoothctl >/dev/null 2>&1 || { echo >&2 "bluetoothctl is not installed."; exit 1; }
 
