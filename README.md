@@ -28,6 +28,7 @@ e.g... for switching the default keyboard layout to German.
 
 ## bluetooth_connect.sh & bluetooth_disconnect.sh
 it automates bluetoothctl Bluetooth device pairing.
+
     arg0 is is a Bluetooth MAC address
     
     example usage:
