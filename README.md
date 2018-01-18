@@ -19,7 +19,7 @@ requires `expect` to be installed
     
     example usage:
     
-    ./bluetooth_connect.exp 01:02:03:04:05:06
+    ./bluetooth_connect.exp 08:EB:ED:F6:53:A3
 
 ## cron_firebase.sh
 it utilizes firebase-tools (`npm install -g firebase-tools`),
