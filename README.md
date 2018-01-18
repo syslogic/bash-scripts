@@ -3,7 +3,7 @@
 ## Bluetooth Connect & Disconnect
 automates bluetoothctl Bluetooth device pairing.
 
-the `exp` script requires `yum install expect.x86_64`
+the `exp` script requires expect (`yum install expect.x86_64`).
 
     arg0 is is a Bluetooth MAC address
     
@@ -15,9 +15,9 @@ the `exp` script requires `yum install expect.x86_64`
     ./bluetooth_connect.exp 08:EB:ED:F6:53:A3
 
 ## Firebase Backup
-it requires firebase-tools (`npm install -g firebase-tools`),
+dumps a Firebase database to filesystem.
 
-in order to have these database dumps contained within a common backup cronjob:
+requires firebase-tools (`npm install -g firebase-tools`).
 
     arg0 is the Firebase projectId
     arg1 is the backup destination directory
