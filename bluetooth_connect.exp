@@ -9,11 +9,9 @@ expect -re "Agent registered"
 
 send "trust $address\r"
 expect -re "Changing $address trust succeeded"
-#sleep 1
 
 send "connect $address\r"
 expect -re "Connection successful"
-#sleep 1
 
 send "quit\r"
 expect -re "Agent unregistered"
