@@ -12,7 +12,9 @@ it automates bluetoothctl Bluetooth device pairing.
 
 ## bluetooth_connect.exp
 it automates bluetoothctl Bluetooth device pairing.
+
 requires `expect` to be installed
+
     arg0 is is a Bluetooth MAC address
     
     example usage:
