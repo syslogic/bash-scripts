@@ -7,8 +7,17 @@ it automates bluetoothctl Bluetooth device pairing.
     
     example usage:
     
-    ./bluetooth_connect.sh 01:02:03:04:05:06
-    ./bluetooth_disconnect.sh 01:02:03:04:05:06
+    ./bluetooth_connect.sh 08:EB:ED:F6:53:A3
+    ./bluetooth_disconnect.sh 08:EB:ED:F6:53:A3
+
+## bluetooth_connect.exp
+it automates bluetoothctl Bluetooth device pairing.
+requires `expect` to be installed
+    arg0 is is a Bluetooth MAC address
+    
+    example usage:
+    
+    ./bluetooth_connect.exp 01:02:03:04:05:06
 
 ## cron_firebase.sh
 it utilizes firebase-tools (`npm install -g firebase-tools`),

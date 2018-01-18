@@ -1,0 +1,21 @@
+#!/usr/bin/expect -f
+# $1 is a Bluetooth MAC address.
+# example usage: bluetooth_connect.sh 08:EB:ED:F6:53:A3
+
+set address [lindex $argv 0]
+
+spawn bluetoothctl -a
+expect -re "Agent registered"
+
+send "trust $address\r"
+expect -re "Changing $address trust succeeded"
+#sleep 1
+
+send "connect $address\r"
+expect -re "Connection successful"
+#sleep 1
+
+send "quit\r"
+expect -re "Agent unregistered"
+
+expect eof
