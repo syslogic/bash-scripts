@@ -27,7 +27,7 @@ requires firebase-tools (`npm install -g firebase-tools`).
     ./cron_firebase.sh project-12345 /home/backup/firebase
 
 
-## Keylayout
+## RHEL Keylayout
 it installs package `system-config-keyboard` on RHEL and CentOS
 e.g... for switching the default keyboard layout to German.
 
