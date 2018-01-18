@@ -25,7 +25,7 @@ in order to have these database dumps contained within a common backup cronjob:
     ./cron_firebase.sh project-12345 /home/backups/firebase
 
 
-## Switch Keylayout
+## German Keylayout
 it installs package `system-config-keyboard` on RHEL and CentOS
 e.g... for switching the default keyboard layout to German.
 
