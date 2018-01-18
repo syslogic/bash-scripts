@@ -1,6 +1,6 @@
 # #!/bin/bash
 
-## bluetooth_connect.sh & bluetooth_disconnect.sh
+## Bluetooth Connect & Disconnect
 it automates bluetoothctl Bluetooth device pairing.
 
     arg0 is is a Bluetooth MAC address
@@ -10,18 +10,9 @@ it automates bluetoothctl Bluetooth device pairing.
     ./bluetooth_connect.sh 08:EB:ED:F6:53:A3
     ./bluetooth_disconnect.sh 08:EB:ED:F6:53:A3
 
-## bluetooth_connect.exp
-it automates bluetoothctl Bluetooth device pairing.
-
-requires `expect` to be installed
-
-    arg0 is is a Bluetooth MAC address
-    
-    example usage:
-    
     ./bluetooth_connect.exp 08:EB:ED:F6:53:A3
 
-## cron_firebase.sh
+## Firebase Backup
 it utilizes firebase-tools (`npm install -g firebase-tools`),
 
 in order to have these database dumps contained within a common backup cronjob:
@@ -34,11 +25,11 @@ in order to have these database dumps contained within a common backup cronjob:
     ./cron_firebase.sh project-12345 /home/backups/firebase
 
 
-## keylayout.sh
+## Switch Keylayout
 it installs package `system-config-keyboard` on RHEL and CentOS
 e.g... for switching the default keyboard layout to German.
 
-## gradle_log.sh
+## Gradle Logs
 it logs the Gradle (https://gradle.org) build output to file and then opens that file, in case of errors -
 otherwise it opens the LINT results in *default* web-browser.
 
