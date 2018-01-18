@@ -22,7 +22,7 @@ in order to have these database dumps contained within a common backup cronjob:
     
     example usage:
     
-    ./cron_firebase.sh project-12345 /home/backups/firebase
+    ./cron_firebase.sh project-12345 /home/backup/firebase
 
 
 ## German Keylayout
