@@ -7,6 +7,9 @@ set address [lindex $argv 0]
 spawn bluetoothctl -a
 expect -re "Agent registered"
 
+send "power on\r"
+expect -re "Changing power on succeeded"
+
 send "trust $address\r"
 expect -re "Changing $address trust succeeded"
 
