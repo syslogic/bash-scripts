@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 # $1 is a Bluetooth MAC address.
-# example usage: bluetooth_connect.sh 08:EB:ED:F6:53:A3
+# example usage: bluetooth_connect.exp 08:EB:ED:F6:53:A3
 
 set address [lindex $argv 0]
 
