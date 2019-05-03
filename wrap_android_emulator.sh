@@ -2,8 +2,8 @@
 # it wraps the Android Emulator with CLI options
 # written 2017-03-07 by Martin Zeitler
 
-# Size of Android Emulator 26.0.3.0 (build_id 3965150)
-ANDROID_EMU_MIN_SIZE=625840
+# Size of Android Emulator 29.0.6.0 (build_id 5513838)
+ANDROID_EMU_MIN_SIZE=792064
 
 ANDROID_QEMU_CLI_PARAMS="-qemu -vga cirrus -m 2G -k de -snapshot -enable-kvm"
 ANDROID_EMU_CLI_PARAMS="-use-system-libs -no-boot-anim -verbose -gpu swiftshader"
